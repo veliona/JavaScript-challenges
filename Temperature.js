@@ -1,3 +1,4 @@
+function temp {
 const n = parseInt(readline());
 var inputs = readline().split(" ");
 var numTemp = [];
@@ -18,4 +19,5 @@ if (n === 0 || inputs === undefined) {
     }
   }
   print(curr);
+}
 }
